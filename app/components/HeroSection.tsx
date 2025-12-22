@@ -48,7 +48,7 @@ export function HeroSection() {
         className="absolute right-2 top-1/2 -translate-y-1/2 w-40 sm:w-56 md:w-2/5 lg:w-2/5 h-auto opacity-25 md:opacity-40"
       >
         <img
-          src="/Pics/Profile.png"
+          src="/Matt-Razmjoy-Portfolio/Pics/Profile.png"
           alt="Matt Razmjouty Portfolio"
           className="w-full h-auto object-cover rounded-lg"
         />
@@ -78,7 +78,19 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white pixelated leading-tight"
+            className="text-6xl md:text-7xl lg:text-8xl text-white pixelated leading-tight"
+            style={{
+              textShadow: `
+                1px 1px 0 #3fff00,
+                2px 2px 0 #3fff00,
+                3px 3px 0 #3fff00,
+                4px 4px 0 #2dd000,
+                5px 5px 0 #2dd000,
+                6px 6px 0 #1aa000,
+                7px 7px 10px rgba(0, 0, 0, 0.5)
+              `,
+              transform: 'perspective(500px) rotateX(5deg)',
+            }}
           >
             MATT
             <br />

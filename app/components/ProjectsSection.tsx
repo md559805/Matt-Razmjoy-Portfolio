@@ -16,7 +16,7 @@ export function ProjectsSection() {
       description: 'Modern Website for a clothing store showcasing new arrivals, products, sales, gift cards and contact options. Includes static pages for Login/Sign-up, a hero/banner slider, floating social buttons, and a blog/newsletter section.',
       category: 'web',
       tags: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-      image: 'Pics/Blue-Shop.jpg',
+      image: '/Matt-Razmjoy-Portfolio/Pics/Blue-Shop.jpg',
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ export function ProjectsSection() {
       description: 'This a complete terminal based application for managing contacts that can add, remove, save, load & etc.',
       category: 'Application',
       tags: ['C++', 'Terminal', 'OOP'],
-      image: 'Pics/PhoneBook.jpg',
+      image: '/Matt-Razmjoy-Portfolio/Pics/PhoneBook.jpg',
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export function ProjectsSection() {
       description: 'Ething provides the knowledge about everything for the user.',
       category: 'web',
       tags: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-      image: 'Pics/Everything.png',
+      image: '/Matt-Razmjoy-Portfolio/Pics/Everything.png',
     },
     {
       id: 6,
