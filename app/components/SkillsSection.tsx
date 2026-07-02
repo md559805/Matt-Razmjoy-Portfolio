@@ -10,37 +10,84 @@ export function SkillsSection() {
     {
       category: 'Frontend',
       skills: [
-        { name: 'React / Next.js', level: 95 },
-        { name: 'JavaScript', level: 90 },
-        { name: 'Tailwind CSS', level: 92 },
-        { name: 'HTML5 / CSS3', level: 95 },
+        { name: 'HTML5', level: 90 },
+        { name: 'CSS3', level: 90 },
+        { name: 'JavaScript', level: 75 },
+        { name: 'Tailwind CSS', level: 70 }, 
       ],
     },
     {
       category: 'Backend',
       skills: [
-        { name: 'Node.js', level: 88 },
-        { name: 'Express.js', level: 85 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'REST APIs', level: 90 },
+        { name: 'Node.js', level: 62 },
+        { name: 'Express.js', level: 62 },
+        { name: 'MySQL', level: 65 },
+        { name: 'REST APIs', level: 69 },
       ],
     },
     {
       category: 'Design',
       skills: [
-        { name: 'Figma', level: 93 },
-        { name: 'Adobe XD', level: 87 },
-        { name: 'UI/UX Design', level: 90 },
-        { name: 'Prototyping', level: 88 },
+        { name: 'Figma', level: 85 },
+        { name: 'Adobe XD', level: 79 },
+        { name: 'UI/UX Design', level: 82 },
+        { name: 'Prototyping', level: 80 },
       ],
     },
     {
-      category: 'Tools & Other',
+      category: 'Networking Fundamentals',
       skills: [
-        { name: 'Git / GitHub', level: 92 },
-        { name: 'Docker', level: 82 },
-        { name: 'AWS', level: 78 },
-        { name: 'Vite.js', level: 85 },
+        { name: 'TCP/IP Stack', level: 93 },
+        { name: 'OSI Model', level: 93 },
+        { name: 'Subnetting & CIDR', level: 73 },
+        { name: 'VLANs, NAT, DHCP, DNS', level: 75 },
+        { name: 'Routing & Switching (Static/Dynamic, OSPF, BGP)', level: 79 },
+        { name: 'Network Topologies', level: 81 },
+      ],
+    },
+    {
+      category: 'CyberSecurity Fundamentals',
+      skills: [
+        { name: 'CIA Triad', level: 70 },
+        { name: 'Common Attacks(Phishing, MITM, DoS/DDoS, SQL Injection, XSS)', level: 73 },
+        { name: 'Security Policies & Best Practices', level: 71 },
+        { name: 'Authentication vs Authorization', level: 76 },
+      ],
+    },
+    {
+      category: 'CyberSecurity Tools',
+      skills: [
+        { name: 'Kali Linux', level: 70 },
+        { name: 'Wireshark', level: 75 },
+        { name: 'Nmap', level: 68 },
+        { name: 'Nessus', level: 70 },
+      ],
+    },
+    {
+      category: 'Scripting & Automation',
+      skills: [
+        { name: 'Python For Cybersecurity', level: 72 },
+        { name: 'Bash / Shell', level: 70 },
+        { name: 'PowerShell', level: 68 },
+        { name: 'Automation Basics', level: 62 },
+      ],
+    },
+    {
+      category: 'Dev Languages',
+      skills: [
+        { name: 'Python', level: 80 },
+        { name: 'C++', level: 85 },
+      ],
+    },
+    {
+      category: 'Languages',
+      skills: [
+        { name: 'Turkish', level: 100 },
+        { name: 'Persian', level: 100 },
+        { name: 'English', level: 98 },
+        { name: 'Istanbul Turkish', level: 75 },
+        { name: 'Germany', level: 53 },
+        { name: 'Spanish', level: 25 },
       ],
     },
   ];
@@ -120,16 +167,13 @@ export function SkillsSection() {
           <p className="text-gray-400 mb-4">Also familiar with:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'GraphQL',
-              'MongoDB',
-              'Redux',
-              'Jest',
-              'CI/CD',
-              'Webpack',
-              'Sass',
-              'Firebase',
-              'Three.js',
-              'WebGL',
+              'Git',
+              'Github',
+              'Putty',
+              'Postman',
+              'DB Browser',
+              'VMs',
+              'Zenmap',
             ].map((tech) => (
               <span
                 key={tech}
