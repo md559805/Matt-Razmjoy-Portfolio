@@ -53,8 +53,7 @@ export function ResumeSection() {
   const certifications = [
     'HTML5, CSS3, JavaScript Certification',
     'C++ Intermediate Programming Certificate',
-    'React Developer Certification',
-    'Backend Development with Node.js Certificate',
+    'English Language',
   ];
 
   return (
