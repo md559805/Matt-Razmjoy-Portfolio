@@ -59,20 +59,13 @@ export function AboutSection() {
             className="space-y-4"
           >
             <p className="text-gray-300 text-base leading-relaxed">
-              I'm a passionate developer and designer with a love for creating unique digital
-              experiences. My journey in tech started with curiosity and has evolved into a
-              career focused on innovation and creativity.
+              I am a Junior Full-Stack Developer with a strong foundation in networking and cybersecurity, combining software development skills with a deep understanding of how systems communicate and stay secure. My expertise spans frontend technologies like HTML, CSS, JavaScript, alongside backend development using Node.js, Express, and MySQL to build scalable and efficient web applications.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
-              I specialize in turning complex problems into elegant solutions, combining technical
-              expertise with creative vision. Whether it's building web applications, designing
-              user interfaces, or exploring new technologies, I bring enthusiasm and dedication
-              to every project.
+              Beyond development, I have solid knowledge of networking fundamentals including TCP/IP, routing, subnetting, and network architecture, which allows me to design systems with performance and reliability in mind. I also have hands-on experience with cybersecurity concepts and tools such as Wireshark, Nmap, and Kali Linux, enabling me to identify vulnerabilities and apply security best practices in real-world scenarios.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
-              When I'm not coding, you'll find me exploring design trends, contributing to
-              open-source projects, and constantly learning new skills to stay at the forefront
-              of technology.
+              I enjoy bridging the gap between development and security, writing clean, maintainable code while considering system-level risks and optimizations. My goal is to build robust, secure, and user-focused applications, and continuously grow in both software engineering and cybersecurity domains.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-4">
