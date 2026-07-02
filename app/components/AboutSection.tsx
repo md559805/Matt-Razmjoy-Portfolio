@@ -9,7 +9,7 @@ export function AboutSection() {
 
   const features = [
     {
-    icon: Network,
+    icon: Code,
     title: 'Networking Knowledge',
     description: 'Understanding network architecture, protocols, and system communication',
     },
@@ -24,7 +24,7 @@ export function AboutSection() {
       description: 'Thinking outside the box to solve complex problems',
     },
     {
-      icon: Shield,
+      icon: Target,
       title: 'Security-Focused Mindset',
       description: 'Applying cybersecurity principles to build secure and reliable systems',
     },
