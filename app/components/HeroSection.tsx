@@ -116,7 +116,7 @@ export function HeroSection() {
             transition={{ delay: 0.7 }}
             className="text-gray-400 text-lg sm:text-xl md:text-2xl max-w-lg md:max-w-2xl"
           >
-            Creative Developer & Designer | Building Digital Experiences That Inspire
+             Networking & Cybersecurity Enthusiast | Junior Full-Stack Developer | Creative Designer
           </motion.p>
 
           <motion.div
