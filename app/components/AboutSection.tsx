@@ -9,9 +9,9 @@ export function AboutSection() {
 
   const features = [
     {
-      icon: Code,
-      title: 'Full Stack Development',
-      description: 'Building scalable applications with modern technologies',
+    icon: Network,
+    title: 'Networking Knowledge',
+    description: 'Understanding network architecture, protocols, and system communication',
     },
     {
       icon: Palette,
@@ -24,9 +24,9 @@ export function AboutSection() {
       description: 'Thinking outside the box to solve complex problems',
     },
     {
-      icon: Target,
-      title: 'Goal-Oriented',
-      description: 'Delivering results that exceed expectations',
+      icon: Shield,
+      title: 'Security-Focused Mindset',
+      description: 'Applying cybersecurity principles to build secure and reliable systems',
     },
   ];
 
