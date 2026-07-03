@@ -9,9 +9,9 @@ export function AboutSection() {
 
   const features = [
     {
-    icon: Code,
-    title: 'Networking Knowledge',
-    description: 'Understanding network architecture, protocols, and system communication',
+      icon: Code,
+      title: 'Networking Knowledge',
+      description: 'Understanding network architecture, protocols, and system communication',
     },
     {
       icon: Palette,
